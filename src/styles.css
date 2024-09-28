@@ -1,0 +1,8 @@
+.column-background {
+    background-image: url('/images/DKn64.jpg'); 
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color: white; 
+}

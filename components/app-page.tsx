@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { Github, Linkedin, Mail } from 'lucide-react'
 
 export function Page() {
   const projects = [
@@ -51,6 +52,23 @@ export function Page() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center space-x-6">
+            <Link href="https://github.com/jbsbuilder" target="_blank" rel="noopener noreferrer"
+              className="text-white hover:text-blue-400 transition duration-300">
+              <Github size={40} />
+              <span className="sr-only">GitHub</span>
+            </Link>
+            <Link href="mailto:work.jacobsmith@gmail.com"
+              className="text-white hover:text-blue-400 transition duration-300">
+              <Mail size={40} />
+              <span className="sr-only">Email</span>
+            </Link>
+            <Link href="https://www.linkedin.com/in/jake-smith-122266165" target="_blank" rel="noopener noreferrer"
+              className="text-white hover:text-blue-400 transition duration-300">
+              <Linkedin size={40} />
+              <span className="sr-only">LinkedIn</span>
+            </Link>
           </div>
         </div>
       </div>

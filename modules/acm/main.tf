@@ -1,7 +1,7 @@
 resource "aws_acm_certificate" "certificate" {
   provider = aws.acm
 
-  domain_name = "cloudresumechallenge.cloudsmithlabs.com"
+  domain_name = "cloudsmithlabs.com"
   validation_method = "DNS"
 
   lifecycle {

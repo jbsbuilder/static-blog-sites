@@ -10,8 +10,8 @@
 /coverage
 
 # next.js
-/.next/
-/out/
+*/.next
+*/out
 
 # production
 /build
@@ -34,3 +34,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#local terraform dir
+.terraform/*
+.terraform.lock.hcl
+#tf state files
+*.tfstate
+*.tfstate.*
+
+# tf varaible files, may inculde sensstive data
+ *.tfvars
+ 
+ #ignore MAC/OSX system files, with the folder metadata
+ .DS_Store
+
+ #ignore crash logs 
+ crash.logs

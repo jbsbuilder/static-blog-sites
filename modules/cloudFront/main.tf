@@ -13,7 +13,7 @@
 resource "aws_cloudfront_distribution" "static_blog_site" {
   origin {
     domain_name = var.domain_name
-    origin_access_control_id = aws_cloudfront_origin_access_control.cloud_resume_challenge.id
+    origin_access_control_id = aws_cloudfront_origin_access_control.static_blog_site.id
     origin_id = var.bucket_id
   }
     enabled             = true

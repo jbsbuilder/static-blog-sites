@@ -61,7 +61,7 @@ resource "aws_cloudfront_distribution" "static_blog_site" {
 
 
 resource "aws_cloudfront_origin_access_control" "static_blog_site" {
-  name = "cloud_resume_challenge"
+  name = "static_blog_site"
   origin_access_control_origin_type = "s3"
   signing_behavior = "always"
   signing_protocol = "sigv4"

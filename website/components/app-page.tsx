@@ -19,10 +19,10 @@ export function Page() {
       link: "https://cloudresumechallenge.cloudsmithlabs.com"
     },
     {
-      title: "This Portfolio",
-      description: "Deploying a React Next.js application as a static website, this project leverages Terraform to automate infrastructure provisioning on a cloud platform. By combining Next.js static generation with Terraform’s infrastructure-as-code, it ensures efficient, scalable, and repeatable hosting deployments.",
-      image: "/images/cloud-sun-svgrepo-com.svg",
-      link: "https://cloudsmithlabs.com"
+      title: "Fire-bank",
+      description: "This project simulates a banking app, enabling secure user-to-user money transfers through Firebase Authentication, Firebase Hosting, and React. Using email-based user verification, it ensures transactions are accurately attributed to verified accounts. Firebase Hosting offers fast deployment, while React provides a responsive interface, creating a streamlined platform for banking simulation.",
+      image: "/images/bank-svgrepo-com.svg",
+      link: "https://fire-bank-bb585.web.app"
     },
 
   ]
